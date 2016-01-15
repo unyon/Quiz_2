@@ -1,4 +1,4 @@
-class AddNamesToEmailList < ActiveRecord::Migration
+class CreateNames < ActiveRecord::Migration
   def change
   create_table :names do |t|
     	t.string :person_name
@@ -9,3 +9,4 @@ class AddNamesToEmailList < ActiveRecord::Migration
 
   end
 end
+
